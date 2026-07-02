@@ -70,8 +70,5 @@ tar -tzf /nfs/incoming/vhosts/backup/<backup_name>.tar.gz | head
 
 - Verify the NFS backup destination is mounted and writable before running backup jobs
 
-# **Screenshots**
-
-***Figure 1: dev-app — tar backup command and listing showing kernel module archive in /nfs/incoming/vhosts/backup***
 
 Ticket #52 | Create Backups for Server Kernel | Procore Linux Jira  |  Page  of
