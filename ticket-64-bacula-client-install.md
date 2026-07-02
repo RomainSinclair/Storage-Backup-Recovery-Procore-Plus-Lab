@@ -87,10 +87,5 @@ sudo ss -tulnp | grep 9102
 
 - Build from source requires a writable working directory — use $HOME, not /tmp or other restricted paths
 
-**Screenshots**
 
-*bacula-fd.conf showing Director configuration entries*
-
-*Bacula web UI — clients list showing dev-app-rs1, dev-performance-rs1, stage-web-rs1 all registered*
-
-Procore-Plus Lab Environment  |  CentOS Stream / RHEL  |  Page
+Procore-Plus Lab Environment  |  CentOS Stream / RHEL  |  
