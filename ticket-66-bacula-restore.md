@@ -70,8 +70,5 @@ exportfs -v
 journalctl -u httpd --no-pager
 journalctl -u nfs-server --no-pager
 
-**Screenshots**
 
-*Bacula restore wizard — Step 4: selecting stage-web-rs1 as restore client to /tmp/restore*
-
-Procore-Plus Lab Environment  |  CentOS Stream / RHEL  |  Page
+Procore-Plus Lab Environment  |  CentOS Stream / RHEL  |  
