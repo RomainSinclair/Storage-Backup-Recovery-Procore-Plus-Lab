@@ -86,10 +86,5 @@ ls -l ~/ftp-prod.config
 
 - firewall-cmd --add-service=ftp opens ports 20 and 21 together — don't open them individually
 
-# **Screenshots**
-
-***Figure 1: dev-app — vsftpd service status and FTP configuration***
-
-***Figure 2: stage-web FTP client connecting to dev-app and file download***
 
 Ticket #49 | Configure FTP Server and Client | Procore Linux Jira  |  Page  of
