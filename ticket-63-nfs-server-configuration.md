@@ -118,10 +118,5 @@ ls -lh /mnt/nfs-rsinclair
 
 - NFSv4 permission denied loops often indicate stale mounts — unmount and remount fresh
 
-# **Screenshots**
-
-***Figure 1: NFS setup on dev-app — dnf install nfs-utils, autofs configuration, directory creation***
-
-***Figure 2: NFS exports file configuration and exportfs output***
 
 Ticket #63 | Configure an NFS Server | Procore Linux Jira  |  Page  of
