@@ -1,5 +1,3 @@
-Procore Linux Jira Tickets  |  Prepared by: Romain Sinclair
-
 | Ticket #56 **Storage Request — Add 100 MB to /lfjs/logs** | **COMPLETED** |
 | --- | --- |
 
@@ -9,6 +7,7 @@ Procore Linux Jira Tickets  |  Prepared by: Romain Sinclair
 | **Storage Added** | +100 MB |
 | **Stack** | LVM + filesystem extension (ext4 or XFS) |
 | **Category** | Storage Administration / LVM |
+| **Procore Linux Jira Tickets  |  Prepared by: Romain Sinclair |
 
 **Objective**
 
