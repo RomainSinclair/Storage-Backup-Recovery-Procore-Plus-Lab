@@ -62,10 +62,5 @@ df -h /lfjs/logs
 # Expect: ~100 MB larger than before
 lsblk
 
-**Screenshots**
-
-*Jira ticket #56 requirements — 100 MB LVM ext4, mount path /lfjs/logs, owner/group webmasters*
-
-*dev-app: LVM extension commands, firewall rules, and /lfjs/logs directory creation*
 
 Procore-Plus Lab Environment  |  CentOS Stream / RHEL  |  Page
