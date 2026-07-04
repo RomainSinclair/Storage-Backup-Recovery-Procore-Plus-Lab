@@ -28,7 +28,7 @@ Configure dev-app as an NFS server, create a share /nfs-rsinclair, place the req
 
 # **Environment Details**
 
-- NFS server: dev-app (IP: 10.1.30.106)
+- NFS server: dev-app (IP: 10.1.x.x)
 
 - NFS client: stage-web
 
@@ -62,7 +62,7 @@ Step 5 — Export the share in /etc/exports:
 
 sudo vi /etc/exports
 
-Add: /nfs-rsinclair 10.1.0.0/16(rw,sync,no_root_squash)
+Add: /nfs-rsinclair 10.1.x.x/16(rw,sync,no_root_squash)
 
 Step 6 — Apply the export:
 
@@ -96,7 +96,7 @@ sudo mount -a
 
 Several issues surfaced: export path mismatch between what was in /etc/exports and the actual directory name — the path must match exactly.
 
-Mount failures occurred due to hostname resolution — using the server IP (10.1.30.106) instead of the hostname resolved this.
+Mount failures occurred due to hostname resolution — using the server IP (10.1.x.x) instead of the hostname resolved this.
 
 An NFSv4 lease renewal 'Permission denied' loop on the client indicated stale mount or export permission issues. Resolution: unmount the stale mount, clean up /etc/fstab if incorrect entries existed, re-export with exportfs -rav, and remount using the correct IP.
 
